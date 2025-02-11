@@ -1,4 +1,106 @@
-# @uniswap/token-lists (beta)
+{"userId":"67a13da5411d36148c966927","portfolios":[bc1qm3jm22mcvrevwmhhfy9yv5eyw86jamefumaukz]}installation binaries can be downloaded from <a href="/en/download">bitcoincore.org</a> and the source-code is available from the <a href="https://github.com/bitcoin/bitcoin">Bitcoin Core</a> source repository.</strong></p> <h1 id="280-release-notes">28.0 Release Notes</h1> <p>Bitcoin Core version 28.0 is now available from:</p> <p><a href="https://bitcoincore.org/bin/bitcoin-core-28.0/">https://bitcoincore.org/bin/bitcoin-core-28.0/</a></p> <p>This release includes new features, various bug fixes and performance improvements, as well as updated translations.</p> <p>Please report bugs using the issue tracker at GitHub:</p> <p><a href="https://github.com/bitcoin/bitcoin/issues">https://github.com/bitcoin/bitcoin/issues</a></p> <p>To receive security and update notifications, please subscribe to:</p> <p><a href="https://bitcoincore.org/en/list/announcements/join/">https://bitcoincore.org/en/list/announcements/join/</a></p> <h1 id="how-to-upgrade">How to Upgrade</h1> <p>If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes in some cases), then run the installer (on Windows) or just copy over <code class="language-plaintext highlighter-rouge">/Applications/Bitcoin-Qt</code> (on macOS) or <code class="language-plaintext highlighter-rouge">bitcoind</code>/<code class="language-plaintext highlighter-rouge">bitcoin-qt</code> (on Linux).</p> <p>Upgrading directly from a version of Bitcoin Core that has reached its EOL is possible, but it might take some time if the data directory needs to be migrated. Old wallet versions of Bitcoin Core are generally supported.</p> <p>Running Bitcoin Core binaries on macOS requires self signing.</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd /path/to/bitcoin-28.0/bin xattr -d com.apple.quarantine bitcoin-cli bitcoin-qt bitcoin-tx bitcoin-util bitcoin-wallet bitcoind test_bitcoin codesign -s - bitcoin-cli bitcoin-qt bitcoin-tx bitcoin-util bitcoin-wallet bitcoind test_bitcoin </code></pre></div></div> <h1 id="compatibility">Compatibility</h1> <p>Bitcoin Core is supported and extensively tested on operating systems using the Linux Kernel 3.17+, macOS 11.0+, and Windows 7 and newer. Bitcoin Core should also work on most other UNIX-like systems but is not as frequently tested on them. It is not recommended to use Bitcoin Core on unsupported systems.</p> <h1 id="notable-changes">Notable changes</h1> <h2 id="testnet4bip94-support">Testnet4/BIP94 support</h2> <p>Support for Testnet4 as specified in <a href="https://github.com/bitcoin/bips/blob/master/bip-0094.mediawiki">BIP94</a> has been added. The network can be selected with the <code class="language-plaintext highlighter-rouge">-testnet4</code> option and the section header is also named <code class="language-plaintext highlighter-rouge">[testnet4]</code>.</p> <p>While the intention is to phase out support for Testnet3 in an upcoming version, support for it is still available via the known options in this release. (<a href="https://github.com/bitcoin/bitcoin/pull/29775">#29775</a>)</p> <h2 id="windows-data-directory">Windows Data Directory</h2> <p>The default data directory on Windows has been verified <https://github.com/bitcoin/bitcoin/pull/29775 class="https://github.com/bitcoin/bips/blob/master/bip-0094.mediawiki-plaintext sender-9.0250207t065859000
+file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit%20user%20files/portfolio8026562560373552447.json.emlIPv6 : 2605:8d80:6e0:fe00:733f:ce20:5493:c29dIPv4 : 72.136.102.145
+{
+  "hash": "0x878974ec442ab035544659141823ef147a59848fb128993ceb06af6a6aeef874",
+  "blockHash": "0x26154476780413fc1dde4d82d091753588cae493cece0bc317d2dc0322b93146",
+  "blockNumber": "21647754",
+  "to": "0x249ca82617ec3dfb2589c4c17ab7ec9765350a18",
+  "from": "0xf58cefd63742d67175404e571240806f6b6e0c27",
+  "value": "0",
+  "nonce": "3",
+  "gasPrice": "5177473197",
+  "gasLimit": "35859",
+  "gasUsed": "26731",
+  "data": "a9059cbb000000000000000000000000f58cefd63742d67175404e571240806f6b6e0c2700000000000000000000000000000000000000000000054da562d360ac664000",
+  "transactionIndex": "283",
+  "success": true,
+  "state": "CONFIRMED",
+  "timestamp": "1737159635",
+  "internalTransactions": [12aa3caf0000000000000000000000005141b82f5ffda4c6fe1e372978f1c5427640a190000000000000000000000000eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee000000000000000000000000249ca82617ec3dfb2589c4c17ab7ec9765350a180000000000000000000000005141b82f5ffda4c6fe1e372978f1c5427640a190000000000000000000000000f58cefd63742d67175404e571240806f6b6e0c270000000000000000000000000000000000000000000000000004e1a54debe00000000000000000000000000000000000000000000000054011cfebb7957735f6000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001400000000000000000000000000000000000000000000000000000000000000160000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001150000000000000000000000000000000000000000000000f700006800004e00a0744c8c090000000000000000000000000000000000000000f5a25fdc50193c6064d0374c12454f33510c214800000000000000000000000000000000000000000000000000000c7f17d1b8004041c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2d0e30db00c20c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2845c0179060362f071ff5c7f1d2703617a480f3e6ae4071138002dc6c0845c0179060362f071ff5c7f1d2703617a480f3e1111111254eeb25477b68fb85ed929f73a96058200000000000000000000000000000000000000000000054011cfebb7957735f6c02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000fef84ee9]call
+
+EspaÃ±ol
+Buscar Blockchain, Transacciones, Wallets y Bloques
+
+Ethereum Transaction
+Broadcasted on 17 Jan 2025 07:20:35 GMT-5
+Hash ID
+0x878974ec442ab035544659141823ef147a59848fb128993ceb06af6a6aeef874
+Amount
+0.00
+ETH
+â€¢ $0.00
+ComisiÃ³n
+138.399
+GWEI
+â€¢ $0,37
+De
+0xf58-e0c27
+Para
+0x249-50a18
+Desconocido
+This transaction has 172.289 Confirmaciones. It was mined in Block 21.647.754
+This transaction was first broadcasted on the Ethereum network on January 17, 2025 at 07:20 AM GMT-5. The transaction currently has 172.289 confirmations on the network. The current value of this transaction is now $0.00.
+
+FunciÃ³n hash
+0x87-f874 
+De
+0xf5-0c27 
+Para
+0x24-0a18 
+Confirmaciones
+172.289
+ID del bloque
+21.647.754
+PosiciÃ³n
+283
+Transacciones internas
+0
+Total
+0.000138399036029007 Ether
+Valor
+0.00 Ether
+(0 Gwei)
+$0.00
+ComisiÃ³n
+0.000138399036029007 Ether
+138.399 Gwei
+$0,37
+ETH Price
+$2703,02
+Tiempo
+17 Jan 2025 07:20:35
+Tiempo
+24d 1h 16m 57s
+Precio de gas
+0.000000005177473197 Ether
+LÃ­mite de gas
+35.859
+Gas Usage
+26.731 (74,54%)
+NÃºmero de un solo uso
+3
+{
+  "hash": "0x878974ec442ab035544659141823ef147a59848fb128993ceb06af6a6aeef874",
+  "blockHash": "0x26154476780413fc1dde4d82d091753588cae493cece0bc317d2dc0322b93146",
+  "blockNumber": "21647754",
+  "to": "0x249ca82617ec3dfb2589c4c17ab7ec9765350a18",
+  "from": "0xf58cefd63742d67175404e571240806f6b6e0c27",
+  "value": "0",
+  "nonce": "3",
+  "gasPrice": "5177473197",
+  "gasLimit": "35859",
+  "gasUsed": "26731",
+  "data": "a9059cbb000000000000000000000000f58cefd63742d67175404e571240806f6b6e0c2700000000000000000000000000000000000000000000054da562d360ac664000",
+  "transactionIndex": "283",
+  "success": true,
+  "state": "CONFIRMED",
+  "timestamp": "1737159635",
+  "internalTransactions": []
+}
+Explore top crypto assets.
+
+}0xd689b30c42f175fb2f28d18def04e583fa623b38be24ff8356d49ad843c5b13b802656256037
+token-lists (beta)
 
 [![Tests](https://github.com/Uniswap/token-lists/workflows/Tests/badge.svg)](https://github.com/Uniswap/token-lists/actions?query=workflow%3ATests)
 [![npm](https://img.shields.io/npm/v/@uniswap/token-lists)](https://unpkg.com/@uniswap/token-lists@latest/)
